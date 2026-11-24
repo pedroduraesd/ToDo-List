@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once "../classes/rb.php";
+require_once "classes/rb.php";
 
 if (!isset($_SESSION['logado']) || $_SESSION['logado'] != true) {
     header("Location: login.php");
