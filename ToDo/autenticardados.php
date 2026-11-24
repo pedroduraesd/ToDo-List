@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once "../classes/rb.php";
+require_once "classes/rb.php";
 R::setup('mysql:host=sql303.infinityfree.com;dbname=if0_43060982_predo', 'if0_43060982', '5lhcorPR5rxc3t');
 
 $email = $_POST['email'] ?? '';
